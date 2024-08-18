@@ -43,7 +43,11 @@ PRODUCT_PACKAGES += \
     SystemUIGoogleOverlay \
     TeleServiceOverlay \
     TelecomOverlay \
-    TelephonyProviderOverlay
+    TelephonyProviderOverlay \
+    CarrierSettingsConfigOverlay \
+    CarrierSettingsOverlay \
+    CarrierSettingsProviderOverlay \
+    CarrierSettingsSystemUIOverlay
 
 ifneq ($(filter sailfish marlin walleye taimen blueline crosshatch sargo bonito flame coral sunfish bramble redfin barbet oriole raven bluejay panther cheetah lynx tangorpro felix shiba husky akita comet tokay caiman komodo, $(LINEAGE_BUILD)),)
 PRODUCT_PACKAGES += \
