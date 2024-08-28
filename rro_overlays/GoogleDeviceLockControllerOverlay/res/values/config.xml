@@ -19,6 +19,7 @@
 <resources>
     <string-array name="lock_task_allowlist" translatable="false">
         <item>com.google.android.gms</item>
+        <item>com.google.android.apps.restore</item>
     </string-array>
     <integer name="device_id_type_bitmap">3</integer>
     <integer name="finalize_server_port_number">443</integer>
